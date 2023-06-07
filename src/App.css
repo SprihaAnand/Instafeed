@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 1px;
+}
+.app{
+  background-color: #fafafa;
+}
+.app_header_image{
+  /*object fit: contain makes sure image does not loose its original ratio no matter what */
+  object-fit: contain;
+  background-color: white;
+  width: 150px;
+  border-bottom: 1px solid lightgray;
+  padding: 20px;
+}
